@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    height: auto;
+    background-color: #282C34;
+    color: wheat;
+    width: 100%;
+   
+   
+    
+}
+
+/* Common Class */
+
+.set{
+    font-size: 20px;
+}
+/* Container */
+
+#container{
+    width: 100%;
+    
+    height: 100vh;
+    background-color: blueviolet;
+}
+/* TimeZone */
+#heading{
+    position: relative;
+    margin-left: 40%;
+}
+/* Set Alarm */
+#setAlarm{
+    position: relative;
+    margin-left: 41%;
+    background-color: #282C34;
+    width: 130px;
+}
+/* Alarm Display */
+#alarm-display{
+   display: flex;
+    width: 100%;
+    height: 200px;
+    margin-left:34%;
+}
+label {
+    display:inline-block;
+    margin: 10px;
+    color: wheat;
+    font-family: sans-serif;
+}
+label select{
+    width: 60px;
+    height: 30px;
+    
+}
+/* Butom position */
+#btn{
+    margin-top: -130px;
+    margin-left:39%;
+}
+/* Set Button Size and with */
+button{
+    color: wheat;
+    
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(30, 166, 224);
+}
+#set{
+    background-color: #009302;
+}
+#set:hover {
+    background-color: rgb(0, 255, 140);
+    transition: all 0.3s;
+}
+
+button:hover{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(0, 0, 0);
+   
+    background-color:mistyrose;
+    color: black;
+    font-family: sans-serif;
+    transition: all 0.3s;
+   
+   
+}
+#alarmclock{
+    list-style: none;
+   
+    flex-direction: column;
+    display: block;
+}
+/* .delete-button{
+    color: wheat;
+    
+        width: 80px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: brown;
+} */
+
+/* Upcoming Alarm */
+
+#list-alarm{
+    margin-left: 36%;
+}
+
+
+#List {
+    list-style-type: none;
+
+}
+.time{
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+#List li {
+    font-size: 1.2rem;
+    color: black;
+    background-color: mediumaquamarine;
+    height: 2rem;
+    margin-left: -55px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 10px;
+    width: 280px;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+
+.deleteAlarm{
+    position: relative;
+    margin-left: 20%;
+    background-color: crimson;
+ 
+}
+.deleteAlarm:hover{
+    background-color:#282C34;
+    color: wheat;
+    transition: all 0.3s;
+}
